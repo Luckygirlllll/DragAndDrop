@@ -26,18 +26,18 @@ public class MainActivity extends Activity implements CoolDragAndDropGridView.Dr
         mCoolDragAndDropGridView = (CoolDragAndDropGridView) findViewById(R.id.coolDragAndDropGridView);
 
         for (int r = 0; r < 2; r++) {
-            mItems.add(new Item(R.drawable.ic_local_search_airport_highlighted, 2, "Airport", "Heathrow"));
+            mItems.add(new Item(R.drawable.ic_local_search_airport_highlighted, 1, "Airport", "Heathrow"));
             mItems.add(new Item(R.drawable.ic_local_search_bar_highlighted, 1, "Bar", "Connaught Bar"));
             mItems.add(new Item(R.drawable.ic_local_search_drink_highlighted, 1, "Drink", "Tequila"));
-            mItems.add(new Item(R.drawable.ic_local_search_eat_highlighted, 2, "Eat", "Sliced Steaks"));
+            mItems.add(new Item(R.drawable.ic_local_search_eat_highlighted, 1, "Eat", "Sliced Steaks"));
             mItems.add(new Item(R.drawable.ic_local_search_florist_highlighted, 1, "Florist", "Roses"));
-            mItems.add(new Item(R.drawable.ic_local_search_gas_station_highlighted, 2, "Gas station", "QuickChek"));
+            mItems.add(new Item(R.drawable.ic_local_search_gas_station_highlighted, 1, "Gas station", "QuickChek"));
             mItems.add(new Item(R.drawable.ic_local_search_general_highlighted, 1, "General", "Service Station"));
-            mItems.add(new Item(R.drawable.ic_local_search_grocery_store_highlighted, 3, "Grocery", "E-Z-Mart"));
-            mItems.add(new Item(R.drawable.ic_local_search_pizza_highlighted, 2, "Pizza", "Pizza Hut"));
+            mItems.add(new Item(R.drawable.ic_local_search_grocery_store_highlighted, 1, "Grocery", "E-Z-Mart"));
+            mItems.add(new Item(R.drawable.ic_local_search_pizza_highlighted, 1, "Pizza", "Pizza Hut"));
             mItems.add(new Item(R.drawable.ic_local_search_post_office_highlighted, 1, "Post office", "USPS"));
             mItems.add(new Item(R.drawable.ic_local_search_see_highlighted, 1, "See", "Tower Bridge"));
-            mItems.add(new Item(R.drawable.ic_local_search_shipping_service_highlighted, 2, "Shipping service", "Celio*"));
+            mItems.add(new Item(R.drawable.ic_local_search_shipping_service_highlighted, 1, "Shipping service", "Celio*"));
         }
 
         mItemAdapter = new ItemAdapter(this, mItems);
